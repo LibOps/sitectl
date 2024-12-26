@@ -1,6 +1,6 @@
-module github.com/libops/homebrew-cli
+module github.com/libops/sitectl
 
-go 1.20
+go 1.23.4
 
 require (
 	github.com/joho/godotenv v1.5.1

@@ -7,7 +7,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/libops/homebrew-cli/pkg/libops"
+	"github.com/libops/sitectl/pkg/libops"
 	"github.com/spf13/cobra"
 )
 

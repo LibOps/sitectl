@@ -14,9 +14,9 @@ import (
 
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/libops/homebrew-cli/internal/helpers"
-	"github.com/libops/homebrew-cli/pkg/gcloud"
-	"github.com/libops/homebrew-cli/pkg/libops"
+	"github.com/libops/sitectl/internal/helpers"
+	"github.com/libops/sitectl/pkg/gcloud"
+	"github.com/libops/sitectl/pkg/libops"
 	"github.com/spf13/cobra"
 )
 

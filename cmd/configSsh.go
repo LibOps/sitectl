@@ -16,9 +16,9 @@ import (
 
 	compute "google.golang.org/api/compute/v1"
 
-	"github.com/libops/homebrew-cli/internal/helpers"
-	"github.com/libops/homebrew-cli/pkg/gcloud"
-	"github.com/libops/homebrew-cli/pkg/libops"
+	"github.com/libops/sitectl/internal/helpers"
+	"github.com/libops/sitectl/pkg/gcloud"
+	"github.com/libops/sitectl/pkg/libops"
 	"github.com/spf13/cobra"
 )
 

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/libops/homebrew-cli/pkg/gcloud"
+	"github.com/libops/sitectl/pkg/gcloud"
 	"github.com/spf13/cobra"
 )
 

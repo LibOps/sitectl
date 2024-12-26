@@ -9,8 +9,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/libops/homebrew-cli/pkg/gcloud"
-	"github.com/libops/homebrew-cli/pkg/libops"
+	"github.com/libops/sitectl/pkg/gcloud"
+	"github.com/libops/sitectl/pkg/libops"
 	"github.com/spf13/cobra"
 )
 
