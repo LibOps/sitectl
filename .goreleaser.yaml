@@ -38,9 +38,6 @@ changelog:
       - '^.github'
 brews:
   - name: sitectl
-    alternative_names:
-      - sitectl@{{ .Version }}
-      - sitectl@{{ .Major }}.{{ .Minor }}
     homepage: "https://github.com/libops/sitectl"
     commit_author:
       name: libops-automation
