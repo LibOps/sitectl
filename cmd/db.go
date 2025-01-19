@@ -20,7 +20,7 @@ import (
 // importDbCmd represents the drupal command
 var importDbCmd = &cobra.Command{
 	Use:   "db",
-	Short: "View basic information about your LibOps Drupal deployment.",
+	Short: "View basic information about your libops Drupal deployment.",
 	Run: func(cmd *cobra.Command, args []string) {
 		var err error
 
@@ -93,7 +93,7 @@ var importDbCmd = &cobra.Command{
 func init() {
 	importCmd.AddCommand(importDbCmd)
 	importDbCmd.Flags().StringP("file", "f", "", "The database file to import")
-	importDbCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your LibOps environment")
+	importDbCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your libops environment")
 
 	importDbCmd.MarkFlagRequired("file")
 }

@@ -43,5 +43,5 @@ brews:
       name: libops-automation
       email: robot@libops.io
     repository:
-      owner: LibOps
+      owner: libops
       name: homebrew

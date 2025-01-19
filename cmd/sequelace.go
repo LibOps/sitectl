@@ -19,10 +19,10 @@ import (
 // addsequelAceCmd represents the addconfigSsh command
 var sequelAceCmd = &cobra.Command{
 	Use:   "sequelace",
-	Short: "Connect to your LibOps database using Sequel Ace (Mac OS only)",
+	Short: "Connect to your libops database using Sequel Ace (Mac OS only)",
 	Long: `
 Info:
-	Running this command opens a connection to your LibOps environment's database.
+	Running this command opens a connection to your libops environment's database.
 
     Database and SSH connection information will have a host, name, and port. Along with relevant credentials.
 
@@ -96,7 +96,7 @@ Info:
 func init() {
 	rootCmd.AddCommand(sequelAceCmd)
 
-	sequelAceCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your LibOps environment")
+	sequelAceCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your libops environment")
 	sequelAceCmd.Flags().StringP("ssh-priv-key", "k", fmt.Sprintf("%s/.ssh/id_rsa", os.Getenv("HOME")), "Full path to your SSH private key (default ~/.ssh/id_rsa)")
 	sequelAceCmd.Flags().StringP("sequel-ace-path", "s", "/Applications/Sequel Ace.app/Contents/MacOS/Sequel Ace", "Full path to your Sequel Ace app (default /Applications/Sequel Ace.app/Contents/MacOS/Sequel Ace)")
 }

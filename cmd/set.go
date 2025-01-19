@@ -12,7 +12,7 @@ import (
 // getCmd represents the get command
 var setCmd = &cobra.Command{
 	Use:   "set",
-	Short: "Set information on your LibOps environment.",
+	Short: "Set information on your libops environment.",
 	Run: func(cmd *cobra.Command, args []string) {
 		log.Fatal("You must specify the type of resource to set")
 	},

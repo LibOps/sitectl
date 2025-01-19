@@ -12,7 +12,7 @@ import (
 // getCmd represents the get command
 var importCmd = &cobra.Command{
 	Use:   "import",
-	Short: "Import resources to your LibOps environment.",
+	Short: "Import resources to your libops environment.",
 	Run: func(cmd *cobra.Command, args []string) {
 		log.Fatal("You must specify the type of resource to import")
 	},

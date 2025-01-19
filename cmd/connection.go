@@ -20,7 +20,7 @@ var getConnectionInfoCmd = &cobra.Command{
 	Short: "Get connection information, including secret credentials.",
 	Long: `
 Info:
-	Get connection information for services deployed to your LibOps environment.
+	Get connection information for services deployed to your libops environment.
 
     Database and SSH connection information will have a host, name, and port. Along with relevant credentials.
 
@@ -80,5 +80,5 @@ Info:
 
 func init() {
 	getCmd.AddCommand(getConnectionInfoCmd)
-	getConnectionInfoCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your LibOps environment")
+	getConnectionInfoCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your libops environment")
 }

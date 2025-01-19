@@ -115,5 +115,5 @@ var getConfigCmd = &cobra.Command{
 
 func init() {
 	getCmd.AddCommand(getConfigCmd)
-	getConfigCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your LibOps environment")
+	getConfigCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your libops environment")
 }

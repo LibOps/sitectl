@@ -1,6 +1,6 @@
 # sitectl
 
-Command line utility to interact with your LibOps site.
+Command line utility to interact with your libops site.
 
 ## Documentation
 

@@ -112,8 +112,8 @@ func init() {
 
 	syncDbCmd.Flags().StringP("source", "s", "", "The database that will be exported from")
 	syncDbCmd.Flags().StringP("target", "t", "", "The database that will be overwritten")
-	syncDbCmd.Flags().StringP("source-token", "x", "", "(optional/machines-only) The gcloud identity token to access the LibOps environment passed as `source`")
-	syncDbCmd.Flags().StringP("target-token", "y", "", "(optional/machines-only) The gcloud identity token to access the LibOps environmen passed as `target`")
+	syncDbCmd.Flags().StringP("source-token", "x", "", "(optional/machines-only) The gcloud identity token to access the libops environment passed as `source`")
+	syncDbCmd.Flags().StringP("target-token", "y", "", "(optional/machines-only) The gcloud identity token to access the libops environmen passed as `target`")
 
 	syncDbCmd.MarkFlagRequired("source")
 	syncDbCmd.MarkFlagRequired("target")

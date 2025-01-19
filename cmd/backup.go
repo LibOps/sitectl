@@ -79,5 +79,5 @@ Info:
 func init() {
 	rootCmd.AddCommand(backupCmd)
 
-	backupCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your LibOps environment")
+	backupCmd.Flags().StringP("token", "t", "", "(optional/machines-only) The gcloud identity token to access your libops environment")
 }
